@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/saiset-co/sai-interx-manager/p2p"
+	"github.com/PeepoFrog/sai-interx-manager/p2p"
 )
 
 type PeerStatus struct {

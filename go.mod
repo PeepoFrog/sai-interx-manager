@@ -1,4 +1,4 @@
-module github.com/saiset-co/sai-interx-manager
+module github.com/PeepoFrog/sai-interx-manager
 
 go 1.23.0
 

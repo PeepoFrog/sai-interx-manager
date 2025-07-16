@@ -7,15 +7,16 @@
 package types
 
 import (
+	reflect "reflect"
+	sync "sync"
+
+	_ "github.com/PeepoFrog/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
 	_ "github.com/cosmos/cosmos-sdk/types/tx/amino"
 	_ "github.com/gogo/protobuf/gogoproto"
-	_ "github.com/saiset-co/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	reflect "reflect"
-	sync "sync"
 )
 
 const (

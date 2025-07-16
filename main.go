@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/saiset-co/sai-interx-manager/internal"
-	"github.com/saiset-co/sai-interx-manager/logger"
+	"github.com/PeepoFrog/sai-interx-manager/internal"
+	"github.com/PeepoFrog/sai-interx-manager/logger"
 
 	"github.com/saiset-co/sai-service/service"
 )

@@ -7,14 +7,15 @@
 package types
 
 import (
+	reflect "reflect"
+	sync "sync"
+
+	v1beta1 "github.com/PeepoFrog/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	_ "github.com/gogo/protobuf/gogoproto"
-	v1beta1 "github.com/saiset-co/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/anypb"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
-	reflect "reflect"
-	sync "sync"
 )
 
 const (

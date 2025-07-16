@@ -5,11 +5,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/saiset-co/sai-interx-manager/gateway"
-	"github.com/saiset-co/sai-interx-manager/p2p"
-	"github.com/saiset-co/sai-interx-manager/p2p/config"
-	"github.com/saiset-co/sai-interx-manager/p2p/net"
-	"github.com/saiset-co/sai-interx-manager/types"
+	"github.com/PeepoFrog/sai-interx-manager/gateway"
+	"github.com/PeepoFrog/sai-interx-manager/p2p"
+	"github.com/PeepoFrog/sai-interx-manager/p2p/config"
+	"github.com/PeepoFrog/sai-interx-manager/p2p/net"
+	"github.com/PeepoFrog/sai-interx-manager/types"
 	"github.com/saiset-co/sai-service/service"
 )
 

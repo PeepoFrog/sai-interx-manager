@@ -2,9 +2,10 @@ package utils
 
 import (
 	"fmt"
-	"github.com/saiset-co/sai-interx-manager/types"
 	"strconv"
 	"strings"
+
+	"github.com/PeepoFrog/sai-interx-manager/types"
 )
 
 func ConvertRate(rateString string) string {

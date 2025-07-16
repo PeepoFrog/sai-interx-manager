@@ -1,9 +1,10 @@
 package gateway
 
 import (
-	"github.com/saiset-co/sai-interx-manager/logger"
-	"go.uber.org/zap"
 	"time"
+
+	"github.com/PeepoFrog/sai-interx-manager/logger"
+	"go.uber.org/zap"
 )
 
 type RetryFunc func() (interface{}, error)

@@ -3,18 +3,19 @@ package gateway
 import (
 	"encoding/json"
 	"errors"
-	"github.com/saiset-co/sai-service/service"
-	"github.com/spf13/cast"
 	"math/big"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/saiset-co/sai-service/service"
+	"github.com/spf13/cast"
+
 	jsonrpc2 "github.com/KeisukeYamashita/go-jsonrpc"
 	"go.uber.org/zap"
 
-	"github.com/saiset-co/sai-interx-manager/logger"
-	"github.com/saiset-co/sai-interx-manager/types"
+	"github.com/PeepoFrog/sai-interx-manager/logger"
+	"github.com/PeepoFrog/sai-interx-manager/types"
 )
 
 type EthereumGateway struct {

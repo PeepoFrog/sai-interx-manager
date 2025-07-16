@@ -17,9 +17,9 @@ import (
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"go.uber.org/zap"
 
-	"github.com/saiset-co/sai-interx-manager/logger"
-	"github.com/saiset-co/sai-interx-manager/types"
-	"github.com/saiset-co/sai-interx-manager/utils"
+	"github.com/PeepoFrog/sai-interx-manager/logger"
+	"github.com/PeepoFrog/sai-interx-manager/types"
+	"github.com/PeepoFrog/sai-interx-manager/utils"
 	"github.com/saiset-co/sai-storage-mongo/external/adapter"
 )
 

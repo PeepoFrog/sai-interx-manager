@@ -9,17 +9,18 @@
 package v1
 
 import (
+	reflect "reflect"
+	sync "sync"
+
+	v1beta1 "github.com/PeepoFrog/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/cosmos/cosmos-sdk/types/tx/amino"
 	_ "github.com/gogo/protobuf/gogoproto"
-	v1beta1 "github.com/saiset-co/sai-interx-manager/proto-gen/cosmos/base/v1beta1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	anypb "google.golang.org/protobuf/types/known/anypb"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
-	reflect "reflect"
-	sync "sync"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 
 	saiService "github.com/saiset-co/sai-service/service"
 
-	"github.com/saiset-co/sai-interx-manager/p2p"
-	"github.com/saiset-co/sai-interx-manager/p2p/types"
+	"github.com/PeepoFrog/sai-interx-manager/p2p"
+	"github.com/PeepoFrog/sai-interx-manager/p2p/types"
 )
 
 type RequestStat struct {

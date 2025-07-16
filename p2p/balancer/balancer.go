@@ -12,11 +12,11 @@ import (
 	saiService "github.com/saiset-co/sai-service/service"
 	"go.uber.org/zap"
 
-	"github.com/saiset-co/sai-interx-manager/logger"
-	"github.com/saiset-co/sai-interx-manager/p2p"
-	"github.com/saiset-co/sai-interx-manager/p2p/metrics"
-	"github.com/saiset-co/sai-interx-manager/p2p/utils"
-	"github.com/saiset-co/sai-interx-manager/types"
+	"github.com/PeepoFrog/sai-interx-manager/logger"
+	"github.com/PeepoFrog/sai-interx-manager/p2p"
+	"github.com/PeepoFrog/sai-interx-manager/p2p/metrics"
+	"github.com/PeepoFrog/sai-interx-manager/p2p/utils"
+	"github.com/PeepoFrog/sai-interx-manager/types"
 )
 
 type LoadBalancer struct {

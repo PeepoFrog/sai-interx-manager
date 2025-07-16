@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/saiset-co/sai-interx-manager/logger"
-	"github.com/saiset-co/sai-interx-manager/p2p"
+	"github.com/PeepoFrog/sai-interx-manager/logger"
+	"github.com/PeepoFrog/sai-interx-manager/p2p"
 	"github.com/saiset-co/sai-service/service"
 )
 
